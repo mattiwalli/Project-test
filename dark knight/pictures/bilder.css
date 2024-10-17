@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    
+}
+
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201009/pngtree-science-or-technology-background-with-dynamic-particles-trendy-colorful-design-template-image_406781.jpg);
+    width: 100%;
+    margin: 0;
+    padding: 0 20px
+
+}
+
+.main-container{
+    
+    
+    width: 100%;
+    margin: 0;
+    padding: 0 20px
+    
+}
+
+
+
+.first-row{
+    display: flex;
+    
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+
+
+.second-row{
+    display: flex;
+    
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+.pictures2{
+    display: flex;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    
+    
+}
+
+.rubrik h1{
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    color: lightcyan;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    
+}
+
+.back{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    color: chartreuse;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    text-decoration-line: none;
+
+    
+}
