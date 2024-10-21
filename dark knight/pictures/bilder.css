@@ -79,3 +79,28 @@ body{
 
     
 }
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 10px;
+    
+    
+}
+
+a{
+  
+    color: white;
+    transition: .7s;
+
+}
+
+a:hover{
+      color: goldenrod;
+}
+
+.pic1:visited{
+    color: chartreuse;
+}
+

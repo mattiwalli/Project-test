@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Inter Variable Font";
+    src: url("fonts/Jersey_20_Charted/Jersey20Charted-Regular.ttf");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -12,6 +17,7 @@ body {
    background-image: url(https://wallpaper.forfun.com/fetch/bb/bba1b266f9dad4fcd19be17f9ce19e18.jpeg);
    background-repeat: no-repeat;
   }
+
   
 
 
@@ -78,13 +84,18 @@ main{
     background-color: black;
 }
 
-.quote{
+.quote p{
     flex-direction: column;
     text-align: center;
     font-size: 30px;
     color:aliceblue;
     text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
     margin-top: 80px;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+
 }
 
 .hero{
@@ -118,21 +129,29 @@ input{
 
 .matti{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     width: 100%; 
 
 }
 
+
 .matti h1{
     display: flex;
-    color: lightcyan;
+    color: darksalmon;
     text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
     text-align: center;
     justify-content: center;
-    font-size: 80px;
-    margin: 0 auto;  
-    
+    font-size: 90px;
+    margin: 0 auto; 
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Inter Variable Font", sans-serif;
+    margin-left: 100px;
+
 }
+
+
+
 
 img{
     width: 100px;
@@ -166,6 +185,11 @@ a:hover{
     transition: 1s ease-in-out;
       
 }
+
+.pic3:visited{
+    color: chartreuse;
+}
+
 
 @keyframes menu-slide-in {
     from {

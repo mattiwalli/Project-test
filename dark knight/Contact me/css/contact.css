@@ -1,0 +1,22 @@
+a{
+    
+    align-items: center;
+    justify-content: end;
+    text-decoration: none;
+    margin: 0 auto;
+    color: blue !important;
+    transition: 0.7s ease-in-out !important;
+    font-size: 14px;
+
+  }
+
+  a:hover{
+
+    color: red !important
+
+  }
+
+  .pic4:visited{
+    color: chartreuse !important;
+}
+  

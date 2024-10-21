@@ -31,23 +31,14 @@
       font-family: SourceSansPro-Regular, sans-serif;
   }
 
-  a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: purple !important;
-    text-decoration: none;
-    margin: 0 auto;
-    
-
-  }
+  
   
   /*---------------------------------------------*/
   a {
       font-family: SourceSansPro-Regular;
       font-size: 14px;
       line-height: 1.7;
-      color: #666666;
+      color: blue;
       margin: 0px;
       transition: all 0.4s;
       -webkit-transition: all 0.4s;
@@ -61,7 +52,12 @@
   
   a:hover {
       text-decoration: none;
+      color: red;
   }
+
+  .pic4:visited{
+    color: darkgreen
+}
   
   /*---------------------------------------------*/
   h1,h2,h3,h4,h5,h6 {
@@ -200,13 +196,14 @@
   }
   
   .contact100-form-title {
-    display: block;
+    display: flex;
     font-family: SourceSansPro-Bold;
     font-size: 30px;
     color: #333333;
     line-height: 1.2;
     text-align: left;
     padding-bottom: 34px;
+    justify-content: space-between;
   }
   
   /*------------------------------------------------------------------

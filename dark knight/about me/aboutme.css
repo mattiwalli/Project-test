@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Inter Variable Font";
+    src: url(fonts1/Turret_Road/TurretRoad-Regular.ttf);
+}
+
 *{
     box-sizing: border-box;
 }
@@ -39,13 +44,16 @@ h1{
     
 }
 
-.p1{
-    font-size: 2em;
+.p1 p{
+    font-size: 1.5em;
     text-align: center;
     color: lightblue;
     box-shadow: 1px 1px 5px white;
-    border-radius: 20%;
     transition: 1s ease-in-out;
+    font-family: "Inter Variable Font";
+    font-weight: 400;
+    font-style: normal;
+    transition: 1s;
  
 }
 
@@ -61,4 +69,27 @@ h1{
     color: chartreuse;
     text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
     text-decoration-line: none; 
+}
+
+.container2{
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+
+}
+
+a{
+  
+    color: white;
+    transition: .7s;
+
+}
+
+a:hover{
+      color: goldenrod;
+}
+
+.pic2:visited{
+    color: chartreuse;
 }
