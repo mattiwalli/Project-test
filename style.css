@@ -146,7 +146,6 @@ input{
     font-weight: 400;
     font-style: normal;
     font-family: "Inter Variable Font", sans-serif;
-    margin-left: 100px;
 
 }
 
@@ -290,6 +289,19 @@ button{
 
 }
 
+@media screen and (max-width: 580px){
+
+    .matti h1 {
+        font-size: 46px;
+    }
+
+    .quote p{
+        font-size: 15px;
+    }
+
+}
+   
+    
 
 
     

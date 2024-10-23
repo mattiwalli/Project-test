@@ -1,0 +1,27 @@
+// _custom-variables.scss
+$primary: #2C3E50 !default; 
+$secondary: #2C3E50 !default;
+$success: #004225 !default;
+$info: #eaeaea !default;
+$warning: #ffc107 !default;
+$danger: #a50000 !default;
+$light: #f5f5dc !default;
+$dark: #1a1a1a !default;
+
+
+// import the functions & variables
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors: (
+    "altlight": #f0f0e9
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+
+  
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+

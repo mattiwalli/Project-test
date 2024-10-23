@@ -93,3 +93,21 @@ a:hover{
 .pic2:visited{
     color: chartreuse;
 }
+
+@media screen and (max-width: 580px){
+
+    h1{
+        font-size: 46px;
+    }
+
+    .p1 p{
+        font-size: 10px;
+    }
+
+    .container2{
+        
+        justify-content: center;
+    }
+
+}
+
