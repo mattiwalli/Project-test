@@ -19,4 +19,13 @@ a{
   .pic4:visited{
     color: chartreuse !important;
 }
+
+@media screen and (max-width: 580px){
+
+  nav{
+      display: flex;
+      flex-direction: column;
+      font-size: 10px;
+  }
+}
   
